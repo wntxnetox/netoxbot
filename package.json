@@ -1,3 +1,6 @@
+"engines": {
+  "node": ">=18"
+},
 {
   "name": "baileys",
   "type": "module",
@@ -105,4 +108,5 @@
   "engines": {
     "node": ">=20.0.0"
   }
+"start": "node example.js"
 }
