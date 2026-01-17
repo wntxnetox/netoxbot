@@ -3,32 +3,16 @@
   "type": "module",
   "version": "7.0.0-rc.9",
   "description": "A WebSockets library for interacting with WhatsApp Web",
-  "keywords": [
-    "whatsapp",
-    "automation"
-  ],
+  "keywords": ["whatsapp", "automation"],
   "homepage": "https://github.com/WhiskeySockets/Baileys/",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:WhiskeySockets/Baileys.git"
-  },
+  "repository": {"type": "git","url": "git@github.com:WhiskeySockets/Baileys.git"},
   "license": "MIT",
   "author": "Rajeh Taher",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "files": [
-    "lib/**/*",
-    "WAProto/**/*",
-    "engine-requirements.js"
-  ],
-  "engines": {
-    "node": ">=18"
-  },
+  "files": ["lib/**/*","WAProto/**/*","engine-requirements.js"],
+  "engines": {"node": ">=18"},
   "scripts": {
-    "build:all": "",
-    "build:docs": "",
-    "build": "",
-    "example": "",
     "prepare": "",
     "start": "node lib/Example/example.js"
   },
